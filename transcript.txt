@@ -1,0 +1,34 @@
+Katie:
+Hello, everyone, and welcome to the Hacking Highlights Podcast. I am your host, Katie, and we're here with Samantha, who is going to share her first time hackathon experience as part of the winning team. So Samantha, hi. Welcome for joining us. What made you decide to join this hackathon? 
+
+Samantha:
+Hi, thanks for giving me this interview. Man, well, I’m a graduate student and I joined this hackathon because my advisor had heard about it and wanted me to learn more about the process of like open science and big data. I don't have data of my own yet, but this hackathon was meant to prepare me for data analysis when I do eventually collect my own. 
+
+Katie: 
+Great. That sounds good. Did you have any coding experience before you joined? 
+
+Samantha: 
+I mean, marginal. I've been exposed to coding during my classes. So I have some MATLAB experience where some statistics classes that I took. And I've written code a little bit to analyze toy data sets that were in by class projects but I've never really created scripts or anything of my own yet. Until this experience, yeah. 
+
+Katie:
+Okay, so some minimal coding experience. What project did you decide to work on and how did you feel about it at the beginning? 
+
+Samantha:
+I was a little intimidated. A lot of these projects seemed very code heavy or like maybe even like designing algorithms but there was one project that focused on data visualization using R shiny. And I thought hey I can understand what the product of this will be, which is like a little widget that users can interact with to explore data. And so that's the one I joined. I was pretty nervous at first, but I do have some interest in like designing things and making things look pretty. So I thought that's how I could contribute. 
+
+Katie:
+Oh, for sure. Got to be able to present your data well. Exactly. So how did you feel that you were able to participate given your inexperience with coding? 
+
+Samantha:
+So R Shiny is written in this programming language called R and the team lead and some of the other members were way more familiar with that language than I was. So what my first task was, was to actually design on pen and paper what the app might look like. And I did that in collaboration with our team lead who was a super great supportive mentor this time. So I showed her how it could be how it could look and then she showed me how it could be implemented in code. So she sort of like sat me down and had my drawing side by side with the code that she mocked up and I was able to see how different pieces of code translate to different features in the app. And then later on I got kind of interested in contributing code myself. So going off of her example, I decided to add some small features like colors or realigning some of the panels and buttons. So I created a branch in our GitHub repo and tried to add some of those features. It did not work. So that night I was like, I'm never going to be able to do this. 
+
+But the following morning I took my laptop and brought it to another team member for troubleshooting of my code and they were able to like, we sort of just sat down and they talked me through the process of writing the code that I wanted to write. I've been told this is called pair programming and it was a really effective way to rapidly learn something from like a one-on-one conversation with an uh you know a relative expert. So in the end, we did manage to push my changes to the repo. And get it merged with the main with the main product. 
+
+Katie:
+Oh, that's great. Yeah, sounds like you had a few troubles at the beginning, but were able to overcome them with the help of your team members so it sounds like it was pretty beneficial. And how did that make you feel about your project at the end? 
+
+Samantha:
+In the end, it was when we did the presentation, it was really cool to be able to see the aspects of R shiny app that I contributed to and how I fit into the entire app as a whole and even more so when I was looking, going back and looking over the GitHub repo. The actual code that created the app. I could see which lines of code were personally authored by me, which had been authored by me and then changed by other people and it was just like my staff was part of a greater whole that I never would have been able to make by myself alone. And that's just like a really wonderful feeling. I had never coded on a team before. So that, and of course, everybody really loved our app so that was awesome. 
+
+Katie:
+Oh, that's great, Samantha. It sounds like you really were able to take some pride in this team project. Well, thank you so much for joining our podcast today, and I hope your experience inspires other people who may not have joined hackathons before to give it a try. We'll see you all again next time.

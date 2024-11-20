@@ -7,6 +7,10 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"
     >
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.colors.min.css"
+    >
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Hack The Hackathon vol. 4 - Playbook</title>
   </head>
@@ -82,14 +86,40 @@
       </article>
         
       <article>
-        <p>User story podcast</p>
+        <h2>User story podcast</h2>
         <iframe
           frameborder="0"
           width="500"
           height="100"
           src="https://drive.google.com/file/d/1ERuFKgzmGq0NzdSDwM15qzz98wlhJhtS/preview?usp=drive_link">
         </iframe>
-      </article>
+        <button id="toggleTranscript">Show Transcript</button>
+        <div id="transcript" style="display: none; height: 50vh; overflow-y: scroll;">
+          <article style="background-color: var(--pico-color-sand-700);">
+            <p id="transcriptContent"></p>
+          </article>
+        </div>
+
+        <script>
+            document.getElementById('toggleTranscript').addEventListener('click', function() {
+            var transcriptDiv = document.getElementById('transcript');
+            var transcriptContent = transcriptDiv.querySelector('p');
+            if (transcriptDiv.style.display === 'none') {
+              fetch('transcript.txt')
+            .then(response => response.text())
+            .then(data => {
+            var formattedData = data.replace(/(?:\r\n|\r|\n)/g, '<br>');
+            transcriptContent.innerHTML = formattedData;
+            transcriptDiv.style.display = 'block';
+            this.textContent = 'Hide Transcript';
+            });
+            } else {
+              transcriptDiv.style.display = 'none';
+              this.textContent = 'Show Transcript';
+            }
+            });
+        </script>
+        </article>
 
         <article>
         <h2>Hacker Archetypes</h2>
